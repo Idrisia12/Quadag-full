@@ -3,7 +3,6 @@ import Home from './Components/Home';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import Forgot from './Components/Forget';
-import Dashboard from './react-material-dashboard/src/App.js';
 import {BrowserRouter as  Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -26,10 +25,6 @@ function App() {
 
           <Route path="/forgot">
             <Forgot/>
-          </Route>
-
-          <Route path="/react-material-dashboard">
-           <Dashboard/>
           </Route>
 
         </Switch>
