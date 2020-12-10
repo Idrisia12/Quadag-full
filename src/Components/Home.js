@@ -10,7 +10,7 @@ import Footer from './Footer';
 const Home = () => {
     return (
         <div>
-           
+
             {/* Header */}
                 <Nav/>
             {/* End Header */}
@@ -52,4 +52,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

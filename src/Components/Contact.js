@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = () => {
     return (
@@ -9,7 +9,7 @@ const Contact = () => {
                 <div><h1 className="section-title" style={{marginTop: "20px"}}>Contact <span>info</span></h1></div>
                 <div className="contact-items">
                     <div className="contact-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/phone.png" alt=""/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/phone.png" style={{ height: "100%", width: "100%", objectFit: "cover"}} alt=""/></div>
                     <div className="contact-info">
                         <h1>Phone</h1>
                         <p>Our phone lines will be on from <br />
@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
                     </div>
                     <div className="contact-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/96/000000/gmail.png" alt=""/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/96/000000/gmail.png" style={{ height: "100%", width: "100%", objectFit: "cover"}} alt=""/></div>
                     <div className="contact-info">
                         <h1>Email</h1>
                         <p>All official correspondence and enquiries should be forwared to</p>
@@ -30,7 +30,7 @@ const Contact = () => {
                     </div>
                     </div>
                     <div className="contact-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/order-delivered.png" alt=""/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/order-delivered.png" style={{ height: "100%", width: "100%", objectFit: "cover"}} alt=""/></div>
                     <div className="contact-info">
                         <h1>Office Address</h1>
                         <h2>State, Nigeria</h2>
@@ -49,4 +49,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;

@@ -15,9 +15,9 @@ const About = () => {
                         <div className="about-info">
                         <h1>Akins Kolapo Precious</h1>
                         <p>CoFounder</p>
-                        <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-linkedin"></i></a>
 
                         </div>
                     </div>
@@ -26,9 +26,9 @@ const About = () => {
                         <div className="about-info">
                         <h1>AbdulRasheed Idris</h1>
                         <p>CoFounder</p>
-                        <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-linkedin"></i></a>
 
                         </div>
                     </div>
@@ -37,12 +37,25 @@ const About = () => {
                         <div className="about-info">
                         <h1>Ninyo Esther</h1>
                         <h2>CoFounder</h2>
-                        <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="about-item">
+                        <div className="icon"><img src="https://ca.slack-edge.com/T018L7UGPSR-U018RG7LTAR-5a43574de280-512" className="about-img" alt=""/></div>
+                        <div className="about-info">
+                        <h1>Afolabi Ifeoluwa</h1>
+                        <h2>CoFounder</h2>
+                        <a href="https://twitter.com/"><i className="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/"><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     </div>
+
+
 
                 </div>
             </section>

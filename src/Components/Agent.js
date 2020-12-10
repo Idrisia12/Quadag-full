@@ -9,7 +9,7 @@ const Agent = () => {
                         <h1 className="section-title">Agen<span>ts</span></h1>
                         <p className="agenth">QuadAG agents are the lifeline of QuadAg's activities. QuadAg agents interface directly with smallholder <br />farmers in various communities, districts and regions in Nigeria.</p>
 
-                        <img src="/assets/agent.jpg" className="img" Alt=""/>
+                        <img src="/assets/agent.jpg" className="img" style={{ height: "100%", width: "100%", objectFit: "cover"}} Alt=""/>
                         <div className="agentp">
                             <h1 className="team-title">Our Agents do the following:</h1>
                             <p> &#185; Onboarding smallholder farmers onto the our platform. Agents visit communities where smallholder farmers who deal in sorghum, rice, maize, millet and soybean are registered onto the platform to trade. Agents also work with farmers to carry out trading activities.</p>

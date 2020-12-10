@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Services = () => {
     return (
@@ -11,22 +11,22 @@ const Services = () => {
                 </div>
                 <div className="service-bottom">
                     <div className="service-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/money-bag-franc.png" Alt=""/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/money-bag-franc.png" className="img2" Alt=""/></div>
                     <h2>Invest</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
                     </div>
                     <div className="service-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/buy.png" Alt=''/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/buy.png" className="img2" Alt=''/></div>
                     <h2>Link Retailers</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
                     </div>
                     <div className="service-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/tractor.png" Alt=""/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/48/000000/tractor.png" className="img2" Alt=""/></div>
                     <h2>24/7 Transport</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
                     </div>
                     <div className="service-item">
-                    <div className="icon"><img src="https://img.icons8.com/color/96/000000/barn.png" Alt=''/></div>
+                    <div className="icon"><img src="https://img.icons8.com/color/96/000000/barn.png" className="img2" Alt=''/></div>
                     <h2>Storage</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
                     </div>
@@ -37,4 +37,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Services;

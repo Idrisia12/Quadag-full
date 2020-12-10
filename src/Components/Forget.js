@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from "react-router-dom"
-// import './Forget.css'
+import { Link } from "react-router-dom";
+import './Forget.css';
 
 const Forget = () => {
     return (
         <div>
-            <img className="wave" src="farm2.png" alt=""/>
-            <div className="container">
+            <img className="wave" src="/assets/farm2.png" alt="name"/>
+            <div className="container1">
                 <div className="img">
-                    <img src="" alt=''/>
+                    <img className="wave" src="/assets/farm2.png" alt="name"/>
                 </div>
                 <div className="login-content">
                     <form action="index.html">
-                        <img src="avatar1.svg" alt=''/>
-                        <h2 className="title">Welcome</h2>
+                        <img src="/assets/avatar1.svg" alt="name"/>
+                        <h2 className="title">Welcome to <Link to="/#hero"><span>QuadAg</span></Link></h2>
                         <h3>Enter your email to Reset</h3>
                         <div className="input-div">
                         <div className="div">
@@ -22,7 +22,7 @@ const Forget = () => {
                         </div>
 
                         <input type="submit" className="btn" value="Reset Password"/>
-                        <h4><Link to="/login" ><a href="" className="new">Login</a></Link></h4>
+                        <h4><Link to="/login" className="new">Login</Link></h4>
                     </form>
                 </div>
             </div>
@@ -30,4 +30,4 @@ const Forget = () => {
     )
 }
 
-export default Forget
+export default Forget;
